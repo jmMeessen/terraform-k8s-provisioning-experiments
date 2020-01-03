@@ -1,0 +1,18 @@
+# Mac
+.DS_Store
+
+# Editors
+.idea
+.vscode/
+
+# Terraform local state and cache
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+.terraform/
+.current_workspace
+
+# Terraform local variables
+*.auto.tfvars*
+
+
